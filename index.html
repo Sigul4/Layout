@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="./styles/index.css" />
+  </head>
+  <body>
+    <div class="wrapper">
+      <header>
+        <div class="header-wrapper">
+          <div class="nav-bar">
+            <div class="logo">
+              <a href="">
+                <img src="./images/logo.png" alt="" />
+              </a>
+            </div>
+            <div class="basket">
+              <button class="basket__logo">
+                <img
+                  src="https://pngimg.com/uploads/shopping_cart/shopping_cart_PNG46.png"
+                  alt=""
+                />
+              </button>
+              <div class="items__in__basket">1</div>
+            </div>
+          </div>
+          <div class="slider__container">
+            <div class="slider__wrapper">
+              <div class="slider__items">
+                <div class="slider__item">
+                  <!-- Контент 1 слайда -->
+                </div>
+                <div class="slider__item">
+                  <!-- Контент 2 слайда -->
+                </div>
+                <div class="slider__item">
+                  <!-- Контент 3 слайда -->
+                </div>
+                <div class="slider__item">
+                  <!-- Контент 4 слайда -->
+                </div>
+                <div class="slider__item">
+                  <!-- Контент 5 слайда -->
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="content__search search block">
+            <form name="search-users" class="search__form form">
+              <input
+                class="form__input"
+                type="text"
+                name="product"
+                placeholder="Enter device name"
+                minlength="3"
+                required
+              />
+            </form>
+            <button class="filter_button">
+              <img
+                class="filter__logo"
+                src="http://s1.iconbird.com/ico/2013/8/429/w256h2561377940132185095settingsstreamline2.png"
+                alt=""
+              />
+            </button>
+            <button class="sort_button">
+              <img
+                class="filter__logo"
+                src="https://www.pngall.com/wp-content/uploads/8/Task-List-PNG-File.png"
+                alt=""
+              />
+            </button>
+          </div>
+        </div>
+      </header>
+      <main>
+        <div class="content">
+          <div class="filter__menu block">
+            <div class="filters">
+              <div class="filter__price dropdown">
+                <span class="drop-menu">
+                  <p class="drop-title">Price</p>
+                  <img
+                    class="drop-marker"
+                    src="https://charbase.com/images/glyph/65310"
+                  />
+                </span>
+                <div class="dropdown-content">
+                  <div class="price__interval">
+                    <div class="interval value-from">
+                      <p>From</p>
+                      <input type="text" />
+                    </div>
+                    <div class="interval value-to">
+                      <p>To</p>
+                      <input type="text" />
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="filter__color dropdown">
+                <span class="drop-menu">
+                  <p class="drop-title">Color</p>
+                  <img
+                    class="drop-marker"
+                    src="https://charbase.com/images/glyph/65310"
+                  />
+                </span>
+                <div class="dropdown-content hidden">
+                  <div class="dropdown-element">
+                    <input class="filter__checkbox" type="checkbox" /><a class="filter__name" href="#">mac</a>
+                  </div>
+                  <div class="dropdown-element">
+                    <input class="filter__checkbox" type="checkbox" /><a class="filter__name" href="#">iphone</a>
+                  </div>
+                  <div class="dropdown-element">
+                    <input class="filter__checkbox" type="checkbox" /><a class="filter__name" href="#">Gold</a>
+                  </div>
+                  <div class="dropdown-element">
+                    <input class="filter__checkbox" type="checkbox" /><a class="filter__name" href="#">Link 1</a>
+                  </div>
+                  <div class="dropdown-element">
+                    <input class="filter__checkbox" type="checkbox" /><a class="filter__name" href="#">Link 1</a>
+                  </div>
+                  <div class="dropdown-element">
+                    <input class="filter__checkbox" type="checkbox" /><a class="filter__name" href="#">Link 1</a>
+                  </div>
+                  <div class="dropdown-element">
+                    <input class="filter__checkbox" type="checkbox" /><a class="filter__name" href="#">Link 1</a>
+                  </div>
+                  <div class="dropdown-element">
+                    <input class="filter__checkbox" type="checkbox" /><a class="filter__name" href="#">Link 1</a>
+                  </div>
+                </div>
+              </div>
+              <div class="filter__os dropdown">
+                <span class="drop-menu">
+                  <p class="drop-title">Os</p>
+                  <img
+                    class="drop-marker"
+                    src="https://charbase.com/images/glyph/65310"
+                  />
+                </span>
+                <div class="dropdown-content hidden">
+                  <div class="dropdown-element">
+                    <input class="filter__checkbox" type="checkbox" /><a class="filter__name" href="#">Ios</a>
+                  </div>
+                  <div class="dropdown-element">
+                    <input class="filter__checkbox" type="checkbox" /><a class="filter__name" href="#">macos</a>
+                  </div>
+                  <div class="dropdown-element">
+                    <input class="filter__checkbox" type="checkbox" /><a class="filter__name" href="#">Link 1</a>
+                  </div>
+                  <div class="dropdown-element">
+                    <input class="filter__checkbox" type="checkbox" /><a class="filter__name" href="#">Link 1</a>
+                  </div>
+                </div>
+              </div>
+              <div class="filter__memory dropdown">
+                <span class="drop-menu">
+                  <p class="drop-title">Memory</p>
+                  <img
+                    class="drop-marker"
+                    src="https://charbase.com/images/glyph/65310"
+                  />
+                </span>
+                <div class="dropdown-content hidden">
+                  <div class="dropdown-element">
+                    <input class="filter__checkbox" type="checkbox" /><a class="filter__name" href="#">Link 1</a>
+                  </div>
+                  <div class="dropdown-element">
+                    <input class="filter__checkbox" type="checkbox" /><a class="filter__name" href="#">Link 1</a>
+                  </div>
+                  <div class="dropdown-element">
+                    <input class="filter__checkbox" type="checkbox" /><a class="filter__name" href="#">Link 1</a>
+                  </div>
+                </div>
+              </div>
+              <div class="filter__display dropdown">
+                <span class="drop-menu">
+                  <p class="drop-title">Display</p>
+                  <img
+                    class="drop-marker"
+                    src="https://charbase.com/images/glyph/65310"
+                  />
+                </span>
+                <div class="dropdown-content hidden">
+                  <div class="dropdown-element">
+                    <input class="filter__checkbox" type="checkbox" /><a class="filter__name" href="#">Link 1</a>
+                  </div>
+                  <div class="dropdown-element">
+                    <input class="filter__checkbox" type="checkbox" /><a class="filter__name" href="#">Link 1</a>
+                  </div>
+                  <div class="dropdown-element">
+                    <input class="filter__checkbox" type="checkbox" /><a class="filter__name" href="#">Link 1</a>
+                  </div>
+                  <div class="dropdown-element">
+                    <input class="filter__checkbox" type="checkbox" /><a class="filter__name" href="#">Link 1</a>
+                  </div>
+                  <div class="dropdown-element">
+                    <input class="filter__checkbox" type="checkbox" /><a class="filter__name" href="#">Link 1</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="content__product">
+            <ul class="products">
+              <!-- PRODUCT -->
+            </ul>
+          </div>
+        </div>
+      </main>
+
+      <footer></footer>
+      <script src="./scripts/index.js" type="module"></script>
+    </div>
+  </body>
+</html>

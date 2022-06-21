@@ -1,0 +1,94 @@
+
+.content__search{
+    width: 100%;
+  }
+  
+
+.content__product{ 
+    width: 67%;
+    padding: 0 0 0 30px;
+    display: flex;
+    flex-wrap: wrap;
+}
+.card{
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 50px;
+}
+
+.card__img{
+    height: 200px;
+    width: 200px;
+}
+.card__price{
+    margin-bottom: 5px;
+}
+
+.card__info{
+    color: gray;
+    width: 150px;
+    text-align: center;
+}
+
+.card__title{
+    font-size: 24px;
+}
+
+.card__main{
+    padding: 30px 30px 10px 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center  ;
+}
+
+
+.card__footer{
+    border-radius: 0 0 5px 5px;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    padding: 10px 0 20px;
+    background-color: rgba(128, 128, 128, 0.318);
+}
+
+.products{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.card__reviews{
+    width: 50%;
+}
+
+.card__orders{
+    width: 20%;
+}
+
+.like-logo{
+    max-width: 20px;
+    max-height: 20px;
+}
+
+.card__availability{
+    display: flex;
+    align-items: center;
+    margin: 5px 0;
+}
+
+.availability-logo{
+    width: 20px;
+    height: 20px;
+    margin: 5px;
+}
+
+.card__price{
+    margin: 10px 0;
+}
+
+.card__info:last-child{
+    margin: 10px 0;
+}

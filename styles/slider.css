@@ -1,0 +1,9 @@
+
+.slider__container{
+    background: url('https://www.apple.com/newsroom/images/product/watch/standard/Apple_delivers-apple-watch-series-6_09152020_big.jpg.large_2x.jpg');
+    background-position: 0 -60px;
+    background-size: 100%;
+    width: 100%;
+    height: 500px;
+  }
+  
